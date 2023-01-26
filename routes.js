@@ -1,6 +1,6 @@
 const router = require("express")();
 const controller = require("./controllers/book");
 
-router.get("/book", controller.book);
+router.get("/book/:start/:display/:searchBook", controller.book);
 
 module.exports = router;
