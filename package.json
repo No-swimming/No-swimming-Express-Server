@@ -1,0 +1,18 @@
+{
+  "name": "no-swimming-express-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/No-swimming/No-swimming-Express-Server.git",
+  "author": "kimgyuha <kimgyuha25@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.4",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
